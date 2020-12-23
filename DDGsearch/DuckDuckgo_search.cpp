@@ -88,7 +88,7 @@ void ddg_Search(string question, const char* email, string password){
 	
 	}
 	mail_body << endl
-			  << "A link to Wekipedia for the searched term (" 
+			  << "A link to Wikipedia for the searched term (" 
 			  << question << ") :"
 			  << root["AbstractURL"] << endl;
 	
